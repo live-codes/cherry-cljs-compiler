@@ -1,0 +1,16 @@
+{
+  "name": "@live-codes/cherry-cljs-compiler",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/live-codes/cherry-cljs-compiler",
+  "scripts": {
+    "build": "esbuild index.js --bundle --minify --format=iife --global-name=CherryCljs --outfile=cherry.umd.js"
+  },
+  "author": "",
+  "license": "EPL-1.0",
+  "dependencies": {
+    "cherry-cljs": "0.0.3",
+    "esbuild": "0.17.19"
+  }
+}

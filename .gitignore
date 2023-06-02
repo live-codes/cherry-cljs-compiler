@@ -1,0 +1,11 @@
+node_modules
+build
+dist
+.vscode
+.cache
+**/*.log
+.env
+docs/docs/api
+/test-results/
+/playwright-report/
+/playwright/.cache/
